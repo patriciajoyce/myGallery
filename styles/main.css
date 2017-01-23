@@ -1,0 +1,284 @@
+body {
+	background-image: url("http://i1380.photobucket.com/albums/ah161/patriciajoyce/Screen%20Shot%202017-01-18%20at%2012.58.14%20AM_zpssdnsqy26.png");
+	background-position: right;
+	background-attachment: fixed;
+	background-size: 57%;
+	margin-top: 0px;
+	background-size: 100px 200px;
+	background-repeat: repeat-y;
+
+}
+
+
+.box {
+	min-height: 50px;
+	
+} 
+
+.sitename {
+	float: left;
+	width: 50%;
+	margin-top: 545px;
+	position: fixed;
+
+}
+
+.name {
+	width: 100%;
+    height: 150px;
+
+}
+
+.picpic {
+	float: left;
+	width: 43%;
+	display: inline-block;
+	position: fixed;
+
+}
+
+.content {
+	float: right;
+	display: block;
+	width: 50%;
+	height: 1000px;
+	margin-right: 50px;
+	
+}
+
+.aboutme {
+	padding-top: 100px;
+	text-align: right;
+	margin-right: 55px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+footer {
+	padding-top: 300px;
+}
+
+.category {
+	color: #D1B064;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.clearfix:after {
+	float: both;
+	display: block;
+}
+
+.default {
+	width: 90%;
+	height: 600px;
+	opacity: 0.5;
+	padding-top: 5px;
+}
+
+.default:hover {
+    opacity: 1.0;
+}
+
+.nav {
+	float: right;
+	width: 54%;
+	display: block;
+	height: 70px;
+	
+}
+
+.heading {
+	float: right;
+	margin-top: 40px;
+	margin-right: 45px;
+	
+}
+
+
+/* NAVIGATION BAR CSS BEGINS*/
+.topbar {
+  text-align: right;
+  height: 50px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s linear;
+  -moz-transition: height 0.5s linear;
+  transition: height 0.5s linear;
+  position: fixed;
+  border-bottom: 1px solid lightgrey;
+  width: 46%;
+  background-color: white;
+  font-family: 'Amatic SC', cursive;
+
+  
+}
+
+.topbar a {
+  font-size: 50px;
+  line-height: 40px;
+  text-decoration: none;
+  opacity: 1;
+  font-weight: bold;
+  padding-top: 10px;
+  color: #D1B064;
+
+}
+
+.topbar a:hover {
+  opacity: 0.5;
+
+}
+ 
+.tophiddenbar {
+  display: block;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  text-shadow: 1px 1px 0 #444;
+  height: 80px;
+  font-family: 'Quicksand', sans-serif;
+
+  
+}
+
+.tophiddenbar a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  text-shadow: none;
+  padding: 0 10px 0 2px;
+
+  
+}
+
+.tophiddenbar a:hover { opacity: 0.6; }
+ 
+.topbar:hover { height: 80px; }
+/*NAVIGAITON BAR CSS ENDS*/
+
+
+/*PROPIC CSS STARTS HERE*/
+
+.hovereffect {
+	width:100%;
+	height:100%;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+	cursor:default;
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+/*PROPIC CSS ENDS HERE*/
+
+
+.extrabox {
+	float: left;
+	width: 48%;
+	height: 50px;
+	display: block;
+	position: fixed;
+	background-color: white;
+}
+
+.gall-head-one {
+	margin-top: 30px;
+	margin-bottom: 9px;
+	float: left;
+}
+
+.gall-head-two {
+	margin-top: 10px;
+	float: left;
+}
+
+
+.gallery-one {
+	width: 45%;
+	float: left;
+	display: block;
+	height: 470px;
+	margin-top:70px;
+	
+	
+}
+
+.gallery-two {
+	width: 45%;
+	height: 470px;
+	float: right;
+	margin-right: 105px;
+	
+	
+}
+
+.grid {
+	width: 100%;
+	height: 400px;
+	overflow: auto;
+	line-height: 0;
+	font-size: 0;
+	line-height: 0;
+	
+}
+
+.photos {
+	width: 25%;
+    height: 175px;
+	float: left;
+	display: inline-block;
+	
+  
+}
+
+.photos:hover {
+	-webkit-transition: all 0.4s ease-in;
+  	transition: all 0.4s ease-in;
+ 	-webkit-transform: scale(2.0);
+	-ms-transform: scale(2.0);
+  	transform: scale(2.0);
+  	height: auto;
+}
+
+@media (max-width : 400px) {
+	
+	.photos {
+		width: 50%;
+		height: 100px;
+	}
+
+	.gallery-two {
+		float: left;
+	}
+
+	.gall-head-two {
+		width: 100%;
+	}
+
+	.name {
+		width: 100%;
+	}
+
+}
+
+
+
+
+
